@@ -1,24 +1,23 @@
 {
     "spider": "./spider.jar",
-    "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
-    "logo": "http://127.0.0.1:9978/file/TVBox/logo.png",
+    "wallpaper": "https://深色壁纸.xxooo.cf/",
     "sites": [
         {
             "key": "豆瓣",
-            "name": "旭叔｜带你体验视觉",
+            "name": "👀旭叔┃带你体验视觉🔍",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
         },
        {
             "key": "本地",
-            "name": "本地｜视频",
+            "name": "本地┃视频",
             "type": 3,
             "api": "csp_LocalFile"
         },
         {
             "key": "配置中心",
-            "name": "配置｜中心",
+            "name": "配置┃中心",
             "type": 3,
             "api": "csp_Config",
             "searchable": 0,
@@ -31,7 +30,7 @@
         },
         {
             "key": "厂长弹幕",
-            "name": "厂长｜旭叔",
+            "name": "厂长┃旭叔",
             "type": 3,
             "api": "csp_Czzy",
             "searchable": 1,
@@ -42,8 +41,26 @@
             }
         },
         {
+            "key": "农民影视",
+            "name": "农民┃旭叔",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "ext": "./XBPQ/农民影视.json"
+        },
+        {
+            "key": "嗨皮影视",
+            "name": "嗨皮┃旭叔",
+            "type": 3,
+            "api": "./PY/嗨皮影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
             "key": "天天弹幕",
-            "name": "天天｜旭叔",
+            "name": "天天┃旭叔",
             "type": 3,
             "api": "csp_TianTian",
             "searchable": 1,
@@ -56,7 +73,7 @@
         },
         {
             "key": "热播弹幕",
-            "name": "热播｜旭叔",
+            "name": "热播┃旭叔",
             "type": 3,
             "api": "csp_TianTian",
             "searchable": 1,
@@ -69,7 +86,7 @@
         },
         {
             "key": "浪酷弹幕",
-            "name": "浪酷｜旭叔",
+            "name": "浪酷┃旭叔",
             "type": 3,
             "api": "csp_TianTian",
             "searchable": 1,
@@ -82,7 +99,7 @@
         },
         {
             "key": "文才弹幕",
-            "name": "文才｜旭叔",
+            "name": "文才┃旭叔",
             "type": 3,
             "api": "csp_Jpys",
             "searchable": 1,
@@ -94,28 +111,28 @@
         },
         {
             "key": "优酷弹幕",
-            "name": "优酷｜旭叔",
+            "name": "优酷┃旭叔",
             "type": 3,
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/优酷弹幕.js"
         },
        {
             "key": "爱奇艺弹幕",
-            "name": "奇艺｜旭叔",
+            "name": "奇艺┃旭叔",
             "type": 3,
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/爱奇艺弹幕.js"
         },
         {
             "key": "追剧弹幕",
-            "name": "追剧｜旭叔",
+            "name": "追剧┃旭叔",
             "type": 3,
             "api": "./JS/drpy2.min.js",
             "ext": "./JS/追剧弹幕.js"
         },
         {
             "key": "三六零弹幕",
-            "name": "三六零｜旭叔",
+            "name": "360┃旭叔",
             "type": 3,
             "api": "csp_Sp360",
             "searchable": 1,
@@ -127,7 +144,7 @@
         },
         {
             "key": "小苹果弹幕",
-            "name": "小苹果｜旭叔",
+            "name": "苹果┃旭叔",
             "type": 3,
             "api": "csp_Xpg",
             "searchable": 1,
@@ -139,7 +156,7 @@
         },
         {
             "key": "玩偶弹幕",
-            "name": "玩偶｜旭叔",
+            "name": "玩偶┃旭叔",
             "type": 3,
             "api": "csp_Wogg",
             "searchable": 1,
@@ -153,9 +170,9 @@
                 "danmu": true
             }
         },
-        {
-            "key": "夸克小米弹幕",
-            "name": "小米｜旭叔",
+       {
+            "key": "夸克蜡笔弹幕",
+            "name": "蜡笔┃旭叔",
             "type": 3,
             "api": "csp_Wobg",
             "quickSearch": 1,
@@ -165,29 +182,13 @@
                 "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
                 "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "https://xiaomi.banye.tech:7086",
+                "site": "https://labi.banye.tech:7086",
                 "danmu": true
             }
         },
-        {
-            "key": "夸克至臻弹幕",
-            "name": "至臻｜旭叔",
-            "type": 3,
-            "api": "csp_Wobg",
-            "quickSearch": 1,
-            "changeable": 1,
-            "filterable": 1,
-            "ext": {
-                "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-                "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-                "site": "https://zhizhen.banye.tech:7086",
-                "danmu": true
-            }
-        },
-        {
+       {
             "key": "猎手影视",
-            "name": "猎手｜旭叔",
+            "name": "猎手┃旭叔",
             "type": 3,
             "api": "./PY/猎手影视.py",
             "searchable": 1,
@@ -198,7 +199,7 @@
         },
         {
             "key": "巧技",
-            "name": "巧技｜旭叔",
+            "name": "巧技┃旭叔",
             "type": 3,
             "api": "csp_qiao2",
             "playerType": 2,
@@ -206,7 +207,7 @@
         },
         {
             "key": "二三",
-            "name": "二三｜旭叔",
+            "name": "二三┃旭叔",
             "type": 3,
             "api": "csp_Muou",
             "playerType": 2,
@@ -214,7 +215,7 @@
         },
        {
             "key": "蝴蝶",
-            "name": "蝴蝶｜旭叔",
+            "name": "蝴蝶┃旭叔",
             "type": 3,
             "api": "csp_Hudie",
             "playerType": 2,
@@ -222,7 +223,7 @@
         },
        {
             "key": "快看",
-            "name": "快看｜旭叔",
+            "name": "快看┃旭叔",
             "type": 3,
             "api": "csp_AppYsV2",
             "searchable": 1,
@@ -233,7 +234,7 @@
         },
         {
             "key": "来看影视",
-            "name": "来看｜旭叔",
+            "name": "来看┃旭叔",
             "type": 3,
             "api": "csp_Lkdy",
             "searchable": 1,
@@ -242,7 +243,7 @@
         },
         {
             "key": "瓜子影视",
-            "name": "瓜子｜旭叔",
+            "name": "瓜子┃旭叔",
             "type": 3,
             "api": "csp_Gz360",
             "searchable": 1,
@@ -251,14 +252,14 @@
         },
        {
             "key": "海纳影视",
-            "name": "海纳｜旭叔",
+            "name": "海纳┃旭叔",
             "type": 3,
             "api": "csp_XBPQ",
             "ext": "./XBPQ/海纳影视.json"
         },
         {
             "key": "看看影视",
-            "name": "看看｜旭叔",
+            "name": "看看┃旭叔",
             "type": 3,
             "api": "csp_XYQHiker",
             "searchable": 1,
@@ -268,7 +269,7 @@
         },
         {
             "key": "夸克趣盘搜弹幕",
-            "name": "趣盘搜｜旭叔",
+            "name": "夸搜┃旭叔",
             "type": 3,
             "api": "csp_QuPanSou",
             "searchable": 1,
@@ -282,7 +283,7 @@
         },
         {
             "key": "荐片",
-            "name": "荐片｜旭叔",
+            "name": "荐片┃旭叔",
             "type": 3,
             "api": "csp_Jianpian",
             "searchable": 1,
@@ -295,7 +296,7 @@
         },
         {
             "key": "push_agent",
-            "name": "手机｜推送",
+            "name": "手机┃推送",
             "type": 3,
             "api": "csp_Push",
             "searchable": 0,
