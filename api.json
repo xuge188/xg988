@@ -29,6 +29,20 @@
             }
         },
         {
+            "key": "影视配置",
+            "name": "👨‍🍳‍影视┃配置",
+            "type": 3,
+            "api": "csp_Wexconfig",
+            "searchable": 0,
+            "changeable": 0,
+            "indexs": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            },
+            "jar": "./wex.jar"
+        },
+        {
             "key": "厂长弹幕",
             "name": "🏭厂长┃旭叔",
             "type": 3,
@@ -293,6 +307,33 @@
             "ext": {
                 "danmu": true
             }
+        },
+        {
+            "key": "雷鲸",
+            "name": "🚀雷鲸┃旭叔",
+            "type": 3,
+            "api": "csp_Wexleijing",
+            "searchable": 1,
+            "changeable": 1,
+            "jar": "./wex.jar"
+        },
+{
+            "key": "天翼",
+            "name": "🚀天意┃旭叔",
+            "type": 3,
+            "api": "csp_Wextyso",
+            "searchable": 1,
+            "changeable": 0,
+            "jar": "./wex.jar"
+        },
+        {
+            "key": "盘他",
+            "name": "🚀异动┃旭叔‍",
+            "type": 3,
+            "api": "csp_WexYDpanta",
+            "searchable": 1,
+            "changeable": 1,
+            "jar": "./wex.jar"
         },
         {
             "key": "push_agent",
