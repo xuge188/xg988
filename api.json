@@ -327,15 +327,6 @@
             "jar": "./wex.jar"
         },
         {
-            "key": "盘他",
-            "name": "🚀异动┃旭叔‍",
-            "type": 3,
-            "api": "csp_WexYDpanta",
-            "searchable": 1,
-            "changeable": 1,
-            "jar": "./wex.jar"
-        },
-        {
             "key": "push_agent",
             "name": "🛴手机┃推送",
             "type": 3,
